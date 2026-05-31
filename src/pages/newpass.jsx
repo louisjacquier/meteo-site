@@ -2,6 +2,7 @@ import '../index.css'
 import { useState } from 'react'
 import { FaEye, FaEyeSlash } from 'react-icons/fa'
 import { useNavigate } from 'react-router-dom'
+import Logo from '../components/Logo'
 
 function Newpass() {
   const [visible1, setVisible1] = useState(false)
@@ -14,6 +15,9 @@ function Newpass() {
 
   return (
     <div className='Login'>
+      <div className="logo">
+        <Logo />
+      </div>
       <h3>Nouveau mot de passe</h3>
       <br/>
       <h5>Entrez votre nouveau mot de passe</h5>

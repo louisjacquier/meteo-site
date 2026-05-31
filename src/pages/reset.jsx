@@ -2,6 +2,7 @@ import '../index.css'
 import { useState } from 'react'
 import { FaEye, FaEyeSlash } from 'react-icons/fa'
 import { Link, useNavigate } from 'react-router-dom'
+import Logo from '../components/Logo'
 
 function Reset() {
   const [visible, setVisible] = useState(false)
@@ -9,6 +10,9 @@ function Reset() {
 
   return (
     <div className='Login'>
+      <div className="logo">
+        <Logo />
+      </div>
       <h3>Entrer le mot de passe reçut</h3>
       <br/>
       <div className="password-field">
