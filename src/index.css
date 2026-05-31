@@ -86,6 +86,10 @@ body {
   cursor: pointer;
   color: #6b7280;
 }
+.Login input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #0f0f13 inset;
+  -webkit-text-fill-color: white;
+}
 
 .login-buttons {
   display: flex;
