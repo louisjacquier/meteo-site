@@ -125,3 +125,9 @@ body {
 .Login > input {
   margin-bottom: 12px;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
