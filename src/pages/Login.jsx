@@ -12,7 +12,7 @@ function Login() {
   const navigate = useNavigate()
 
   async function handleLogin() {
-    const response = await fetch('https://meteo-server-bz30.onrender.com', {
+    const response = await fetch('https://meteo-server-bz30.onrender.com/auth/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password })
