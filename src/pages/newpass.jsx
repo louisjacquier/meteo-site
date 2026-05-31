@@ -10,7 +10,7 @@ function Newpass() {
   const navigate = useNavigate()
   function confirmer() {
   alert("Votre mot de passe a bien été modifié")
-  navigate('/Login')
+  navigate('/')
 }
 
   return (
